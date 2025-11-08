@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Men",
+    "image": "https://images.unsplash.com/photo-1603252109303-2751441dd157?w=800&q=80",
+    "link": "/shop?category=men"
+  },
+  {
+    "name": "Women",
+    "image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=800&q=80",
+    "link": "/shop?category=women"
+  },
+  {
+    "name": "New Arrivals",
+    "image": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&q=80",
+    "link": "/shop?category=new"
+  }
+]
+

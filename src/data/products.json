@@ -1,0 +1,117 @@
+[
+  {
+    "id": 1,
+    "name": "Classic White Tee",
+    "category": "Men",
+    "price": 29.99,
+    "originalPrice": 39.99,
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800&q=80",
+    "badge": "New",
+    "size": ["S", "M", "L", "XL"],
+    "color": "White"
+  },
+  {
+    "id": 2,
+    "name": "Premium Black Shirt",
+    "category": "Men",
+    "price": 49.99,
+    "image": "https://images.unsplash.com/photo-1603252109303-2751441dd157?w=800&q=80",
+    "size": ["S", "M", "L", "XL", "XXL"],
+    "color": "Black"
+  },
+  {
+    "id": 3,
+    "name": "Elegant Navy Blue",
+    "category": "Men",
+    "price": 54.99,
+    "image": "https://images.unsplash.com/photo-1594938291221-94c1b3c79448?w=800&q=80",
+    "size": ["M", "L", "XL"],
+    "color": "Navy Blue"
+  },
+  {
+    "id": 4,
+    "name": "Casual Grey Tee",
+    "category": "Men",
+    "price": 34.99,
+    "image": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=800&q=80",
+    "size": ["S", "M", "L", "XL"],
+    "color": "Grey"
+  },
+  {
+    "id": 5,
+    "name": "Floral Summer",
+    "category": "Women",
+    "price": 44.99,
+    "originalPrice": 59.99,
+    "image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=800&q=80",
+    "badge": "Sale",
+    "size": ["XS", "S", "M", "L"],
+    "color": "Floral"
+  },
+  {
+    "id": 6,
+    "name": "Elegant White Blouse",
+    "category": "Women",
+    "price": 49.99,
+    "image": "https://images.unsplash.com/photo-1594633313593-bab3825d0caf?w=800&q=80",
+    "size": ["XS", "S", "M", "L", "XL"],
+    "color": "White"
+  },
+  {
+    "id": 7,
+    "name": "Chic Black Top",
+    "category": "Women",
+    "price": 39.99,
+    "image": "https://images.unsplash.com/photo-1594633313645-3f6558ef8d44?w=800&q=80",
+    "badge": "New",
+    "size": ["S", "M", "L"],
+    "color": "Black"
+  },
+  {
+    "id": 8,
+    "name": "Summer Pastel Tee",
+    "category": "Women",
+    "price": 34.99,
+    "image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=800&q=80",
+    "size": ["XS", "S", "M", "L"],
+    "color": "Pastel Pink"
+  },
+  {
+    "id": 9,
+    "name": "Striped Classic",
+    "category": "Men",
+    "price": 42.99,
+    "image": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=800&q=80",
+    "size": ["S", "M", "L", "XL"],
+    "color": "Navy/White"
+  },
+  {
+    "id": 10,
+    "name": "Denim Shirt",
+    "category": "Men",
+    "price": 59.99,
+    "image": "https://images.unsplash.com/photo-1603252109303-2751441dd157?w=800&q=80",
+    "badge": "Trending",
+    "size": ["M", "L", "XL", "XXL"],
+    "color": "Blue"
+  },
+  {
+    "id": 11,
+    "name": "Vintage Style Tee",
+    "category": "Women",
+    "price": 37.99,
+    "image": "https://images.unsplash.com/photo-1594633313593-bab3825d0caf?w=800&q=80",
+    "size": ["XS", "S", "M", "L"],
+    "color": "Cream"
+  },
+  {
+    "id": 12,
+    "name": "Sporty Performance",
+    "category": "Men",
+    "price": 64.99,
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800&q=80",
+    "size": ["S", "M", "L", "XL", "XXL"],
+    "color": "Charcoal"
+  }
+]
+
