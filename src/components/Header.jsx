@@ -16,9 +16,9 @@ const Header = () => {
 
   return (
     <header className="sticky top-0 z-50 bg-white shadow-sm">
-      <nav className="w-full py-4">
+      <nav className="w-full py-4 relative">
         <div className="flex items-center justify-between">
-          <div className="-ml-4 md:-ml-8 lg:-ml-12 xl:-ml-16">
+          <div className="absolute left-0 -ml-12 sm:-ml-14 md:relative md:ml-0 md:-ml-16 lg:-ml-20 xl:-ml-24">
             <Logo />
           </div>
           
