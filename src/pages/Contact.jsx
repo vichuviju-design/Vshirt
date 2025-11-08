@@ -136,8 +136,8 @@ const Contact = () => {
                   <h3 className="text-lg font-semibold text-neutral-dark mb-2">Address</h3>
                   <p className="text-neutral-dark/70">
                     123 Fashion Street<br />
-                    Style District, New York<br />
-                    NY 10001, United States
+                    Style District, Mumbai<br />
+                    Maharashtra 400001, India
                   </p>
                 </div>
                 <div>
@@ -148,8 +148,8 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-neutral-dark mb-2">Phone</h3>
-                  <a href="tel:+1234567890" className="text-primary hover:underline">
-                    +1 (234) 567-890
+                  <a href="tel:+919876543210" className="text-primary hover:underline">
+                    +91 98765 43210
                   </a>
                 </div>
                 <div>
@@ -201,7 +201,7 @@ const Contact = () => {
             </h2>
             <div className="relative w-full h-[400px] rounded-lg overflow-hidden">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.184132576171!2d-73.98811768459418!3d40.75889597932681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855c6480299%3A0x55194ec5a1ae072e!2sTimes%20Square!5e0!3m2!1sen!2sus!4v1234567890"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.123456789!2d72.8776559!3d19.0759837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce%3A0x1234567890!2sMumbai!5e0!3m2!1sen!2sin!4v1234567890"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}

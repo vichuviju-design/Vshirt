@@ -3,17 +3,17 @@ import { motion } from 'framer-motion';
 const About = () => {
   const teamMembers = [
     {
-      name: 'Sarah Johnson',
+      name: 'Priya Sharma',
       role: 'Creative Director',
       image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&q=80',
     },
     {
-      name: 'Michael Chen',
+      name: 'Rahul Kumar',
       role: 'Head of Design',
       image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80',
     },
     {
-      name: 'Emily Rodriguez',
+      name: 'Anjali Patel',
       role: 'Brand Manager',
       image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&q=80',
     },

@@ -16,12 +16,14 @@ const Header = () => {
 
   return (
     <header className="sticky top-0 z-50 bg-white shadow-sm">
-      <nav className="container mx-auto px-4 py-4">
+      <nav className="w-full py-4">
         <div className="flex items-center justify-between">
-          <Logo />
+          <div className="-ml-4 md:-ml-8 lg:-ml-12 xl:-ml-16">
+            <Logo />
+          </div>
           
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-8">
+          <div className="hidden md:flex items-center gap-8 pr-4 md:pr-6 lg:pr-8">
             {navLinks.map((link) => (
               <Link
                 key={link.path}

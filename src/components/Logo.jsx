@@ -39,7 +39,7 @@ const Logo = ({ className = '', variant = 'default', layout = 'horizontal' }) =>
           <img
             src={imgSrc}
             alt="V SHIRTS Logo"
-            className={`${isVertical ? 'w-48' : 'w-32'} h-auto block object-contain max-h-16`}
+            className={`${isVertical ? 'w-80' : 'w-72'} h-auto block object-contain ${isVertical ? 'max-h-36' : 'max-h-24'}`}
             onError={() => setUseImage(false)}
             onLoad={() => setUseImage(true)}
           />

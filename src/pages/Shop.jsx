@@ -63,10 +63,10 @@ const Shop = () => {
   const colors = ['White', 'Black', 'Navy Blue', 'Grey', 'Floral', 'Pastel Pink', 'Blue', 'Cream', 'Charcoal'];
   const priceRanges = [
     { label: 'All Prices', value: 'all' },
-    { label: 'Under $30', value: '0-30' },
-    { label: '$30 - $50', value: '30-50' },
-    { label: '$50 - $70', value: '50-70' },
-    { label: 'Over $70', value: '70-999' },
+    { label: 'Under ₹600', value: '0-600' },
+    { label: '₹600 - ₹1000', value: '600-1000' },
+    { label: '₹1000 - ₹1500', value: '1000-1500' },
+    { label: 'Over ₹1500', value: '1500-9999' },
   ];
 
   return (

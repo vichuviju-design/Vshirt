@@ -79,7 +79,7 @@ const Home = () => {
       </section>
 
       {/* Seasonal Sale Banner */}
-      <section className="py-16 bg-gradient-to-r from-primary to-primary-blue">
+      <section className="py-16 bg-gradient-to-r from-primary to-primary-dark">
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}

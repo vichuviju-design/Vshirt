@@ -38,7 +38,7 @@ const Hero = () => {
             transition={{ delay: 0.4, duration: 0.8 }}
             className="text-xl text-white/90 mb-8"
           >
-            Discover premium fashion that defines you. Shop the latest trends in men's and women's apparel.
+            India's premium fashion destination. Discover trendy t-shirts for men and women with quality you can trust.
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
