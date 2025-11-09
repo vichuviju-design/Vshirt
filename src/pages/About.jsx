@@ -39,10 +39,10 @@ const About = () => {
             className="max-w-3xl"
           >
             <h1 className="text-5xl md:text-6xl font-bold text-white mb-4">
-              About V-Shirt
+              About V Shirts
             </h1>
             <p className="text-xl text-white/90">
-              Crafting premium fashion for the modern lifestyle
+              V Shirts — Born from Vision, Built on Vibe.
             </p>
           </motion.div>
         </div>
@@ -63,19 +63,22 @@ const About = () => {
                 Our Story
               </h2>
               <p className="text-lg text-neutral-dark/70 leading-relaxed mb-4">
-                V-Shirt was born from a simple yet powerful idea: fashion should be accessible,
-                comfortable, and confident. Founded in 2020, we set out to create premium apparel
-                that doesn't compromise on style or quality.
+                Every thread tells a story — of roots, rhythm, and realness.
               </p>
               <p className="text-lg text-neutral-dark/70 leading-relaxed mb-4">
-                Our journey began with a vision to redefine everyday fashion. We believe that
-                everyone deserves to look and feel their best, whether they're heading to work,
-                meeting friends, or simply enjoying a casual day out.
+                From the heart of Tamil Nadu, we began with a purpose: to craft shirts that blend village calm with modern confidence.
+              </p>
+              <p className="text-lg text-neutral-dark/70 leading-relaxed mb-4">
+                Our fashion is not fast — it's felt. Designed for people who move with meaning, live with style, and wear their vibe proudly.
+              </p>
+              <p className="text-lg text-neutral-dark/70 leading-relaxed mb-4">
+                Each V Shirt is a promise — vivid in color, valuable in comfort, and vibrant in spirit.
               </p>
               <p className="text-lg text-neutral-dark/70 leading-relaxed">
-                Today, V-Shirt stands as a testament to our commitment to excellence, innovation,
-                and customer satisfaction. We continue to push boundaries, explore new designs,
-                and bring you the latest trends in men's and women's fashion.
+                We don't follow trends; we create timeless simplicity that speaks for itself.
+              </p>
+              <p className="text-lg text-neutral-dark/70 leading-relaxed mt-4 font-semibold">
+                V Shirts — Woven with Vision. Made for you.
               </p>
             </motion.div>
           </div>
@@ -96,8 +99,7 @@ const About = () => {
                 Our Mission
               </h2>
               <p className="text-xl text-neutral-dark/70 leading-relaxed text-center mb-8">
-                To empower individuals to express their unique style through premium, sustainable,
-                and accessible fashion that combines comfort with confidence.
+                To craft shirts that blend village calm with modern confidence, creating timeless simplicity that speaks for itself.
               </p>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
                 <motion.div
@@ -156,32 +158,28 @@ const About = () => {
               transition={{ duration: 0.6 }}
             >
               <h2 className="text-4xl md:text-5xl font-bold text-neutral-dark mb-6">
-                Fashion Philosophy
+                Our Philosophy
               </h2>
               <p className="text-lg text-neutral-dark/70 leading-relaxed mb-6">
-                At V-Shirt, we believe that fashion is more than just clothing—it's a form of
-                self-expression. Our philosophy centers around three core principles:
+                At V Shirts, we believe fashion is not fast — it's felt. Our philosophy centers around three core values:
               </p>
               <ul className="space-y-4 text-lg text-neutral-dark/70">
                 <li className="flex items-start">
                   <span className="text-primary mr-3 font-bold">•</span>
                   <span>
-                    <strong className="text-neutral-dark">Style:</strong> We create timeless designs
-                    that transcend trends, ensuring your wardrobe remains relevant season after season.
+                    <strong className="text-neutral-dark">Vibrant:</strong> Vivid in color, vibrant in spirit — every shirt tells a story of roots, rhythm, and realness.
                   </span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-primary mr-3 font-bold">•</span>
                   <span>
-                    <strong className="text-neutral-dark">Comfort:</strong> Premium materials and
-                    thoughtful construction ensure that looking good never means sacrificing comfort.
+                    <strong className="text-neutral-dark">Versatile:</strong> Designed for people who move with meaning, live with style, and wear their vibe proudly.
                   </span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-primary mr-3 font-bold">•</span>
                   <span>
-                    <strong className="text-neutral-dark">Confidence:</strong> When you wear V-Shirt,
-                    you're not just wearing clothes—you're wearing confidence, ready to take on the world.
+                    <strong className="text-neutral-dark">Valuable:</strong> Valuable in comfort — we create timeless simplicity that speaks for itself, blending village calm with modern confidence.
                   </span>
                 </li>
               </ul>
@@ -204,7 +202,7 @@ const About = () => {
               Meet Our Team
             </h2>
             <p className="text-lg text-neutral-dark/60 max-w-2xl mx-auto">
-              The passionate individuals behind V-Shirt
+              The passionate individuals behind V Shirts
             </p>
           </motion.div>
 

@@ -26,19 +26,29 @@ const Hero = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2, duration: 0.8 }}
-            className="text-5xl md:text-7xl font-bold text-white mb-6"
+            className="text-5xl md:text-7xl font-bold text-white mb-4"
           >
-            Style. Comfort.
-            <br />
-            <span className="text-primary">Confidence.</span>
+            Vibe with V Shirts
           </motion.h1>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.3, duration: 0.8 }}
+            className="mb-6"
+          >
+            <p className="text-xl md:text-2xl font-medium text-primary/90 tracking-wide">
+              <span className="inline-block mr-3">Versatile.</span>
+              <span className="inline-block mr-3">Vibrant.</span>
+              <span className="inline-block">Valuable.</span>
+            </p>
+          </motion.div>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4, duration: 0.8 }}
-            className="text-xl text-white/90 mb-8"
+            className="text-lg md:text-xl text-white/90 mb-8 max-w-xl leading-relaxed"
           >
-            India's premium fashion destination. Discover trendy t-shirts for men and women with quality you can trust.
+            V Shirts — Vibrant by Nature. Versatile by Design.
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 20 }}

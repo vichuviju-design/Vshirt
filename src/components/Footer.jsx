@@ -14,7 +14,8 @@ const Footer = () => {
     company: [
       { label: 'About Us', path: '/about' },
       { label: 'Contact', path: '/contact' },
-      { label: 'Careers', path: '#' },
+      { label: 'V-Talks (FAQ)', path: '/faq' },
+      { label: 'Careers', path: '/careers' },
     ],
     legal: [
       { label: 'Privacy Policy', path: '#' },
@@ -38,7 +39,7 @@ const Footer = () => {
           <div>
             <Logo className="mb-4" />
             <p className="text-neutral-dark/70 text-sm mt-4">
-              Style. Comfort. Confidence. Discover premium fashion that defines you.
+              V Shirts — Vibrant by Nature. Versatile by Design. Valuable in Comfort.
             </p>
             <div className="flex gap-4 mt-6">
               {socialLinks.map((social) => (
@@ -111,7 +112,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="border-t border-neutral-dark/10 mt-8 pt-8 text-center">
           <p className="text-neutral-dark/60 text-sm">
-            © {currentYear} V-Shirt. All rights reserved.
+            © {currentYear} V Shirts. All rights reserved.
           </p>
         </div>
       </div>

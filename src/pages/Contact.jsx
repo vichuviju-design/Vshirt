@@ -41,10 +41,13 @@ const Contact = () => {
             transition={{ duration: 0.8 }}
           >
             <h1 className="text-5xl md:text-6xl font-bold text-white mb-4">
-              Get in Touch
+              Contact
             </h1>
             <p className="text-xl text-white/90">
-              We'd love to hear from you
+              Voice your vibe with V Shirts.
+            </p>
+            <p className="text-lg text-white/80 mt-2">
+              Visit, verify, or vibe with us — we're always here to value you.
             </p>
           </motion.div>
         </div>
@@ -61,9 +64,12 @@ const Contact = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
             >
-              <h2 className="text-3xl font-bold text-neutral-dark mb-6">
+              <h2 className="text-3xl font-bold text-neutral-dark mb-4">
                 Send us a Message
               </h2>
+              <p className="text-neutral-dark/70 mb-6">
+                We believe great fashion comes with great connection. Whether it's feedback, collaboration, or a friendly "hi," we're always happy to hear from you.
+              </p>
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-semibold text-neutral-dark mb-2">
@@ -133,30 +139,28 @@ const Contact = () => {
               </h2>
               <div className="space-y-6 mb-8">
                 <div>
-                  <h3 className="text-lg font-semibold text-neutral-dark mb-2">Address</h3>
+                  <h3 className="text-lg font-semibold text-neutral-dark mb-2">📍 Address</h3>
                   <p className="text-neutral-dark/70">
-                    123 Fashion Street<br />
-                    Style District, Mumbai<br />
-                    Maharashtra 400001, India
+                    V Shirts Studio<br />
+                    Tamil Nadu, India
                   </p>
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold text-neutral-dark mb-2">Email</h3>
-                  <a href="mailto:hello@v-shirt.com" className="text-primary hover:underline">
-                    hello@v-shirt.com
+                  <h3 className="text-lg font-semibold text-neutral-dark mb-2">✉️ Email</h3>
+                  <a href="mailto:V_shirts_08@gmail.com" className="text-primary hover:underline">
+                    V_shirts_08@gmail.com
                   </a>
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold text-neutral-dark mb-2">Phone</h3>
+                  <h3 className="text-lg font-semibold text-neutral-dark mb-2">☎️ Phone</h3>
                   <a href="tel:+919876543210" className="text-primary hover:underline">
                     +91 98765 43210
                   </a>
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold text-neutral-dark mb-2">Business Hours</h3>
+                  <h3 className="text-lg font-semibold text-neutral-dark mb-2">🕐 Business Hours</h3>
                   <p className="text-neutral-dark/70">
-                    Monday - Friday: 9:00 AM - 6:00 PM<br />
-                    Saturday: 10:00 AM - 4:00 PM<br />
+                    Monday – Saturday: 9:00 AM – 7:00 PM<br />
                     Sunday: Closed
                   </p>
                 </div>
@@ -164,13 +168,16 @@ const Contact = () => {
 
               {/* Social Icons */}
               <div>
-                <h3 className="text-lg font-semibold text-neutral-dark mb-4">Follow Us</h3>
+                <h3 className="text-lg font-semibold text-neutral-dark mb-4">🌐 Connect With Us Online</h3>
+                <p className="text-neutral-dark/70 mb-4 text-sm">
+                  Our team replies quickly because your voice drives our vision.
+                </p>
                 <div className="flex gap-4">
                   {[
                     { name: 'Instagram', icon: '📷', url: '#' },
                     { name: 'Facebook', icon: '📘', url: '#' },
-                    { name: 'Twitter', icon: '🐦', url: '#' },
-                    { name: 'Pinterest', icon: '📌', url: '#' },
+                    { name: 'X (Twitter)', icon: '🐦', url: '#' },
+                    { name: 'Threads', icon: '💬', url: '#' },
                   ].map((social) => (
                     <motion.a
                       key={social.name}
@@ -196,9 +203,12 @@ const Contact = () => {
             transition={{ duration: 0.6 }}
             className="mt-16 max-w-6xl mx-auto"
           >
-            <h2 className="text-3xl font-bold text-neutral-dark mb-6 text-center">
+            <h2 className="text-3xl font-bold text-neutral-dark mb-2 text-center">
               Find Us
             </h2>
+            <p className="text-neutral-dark/70 mb-6 text-center">
+              V Shirts — Voice of Vision, Value of Style.
+            </p>
             <div className="relative w-full h-[400px] rounded-lg overflow-hidden">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.123456789!2d72.8776559!3d19.0759837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce%3A0x1234567890!2sMumbai!5e0!3m2!1sen!2sin!4v1234567890"

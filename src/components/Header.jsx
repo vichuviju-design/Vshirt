@@ -11,7 +11,9 @@ const Header = () => {
     { path: '/', label: 'Home' },
     { path: '/shop', label: 'Shop' },
     { path: '/about', label: 'About' },
+    { path: '/faq', label: 'V-Talks' },
     { path: '/contact', label: 'Contact' },
+    { path: '/careers', label: 'Careers' },
   ];
 
   return (

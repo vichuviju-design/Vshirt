@@ -23,7 +23,7 @@ const Newsletter = () => {
         >
           <h2 className="text-4xl font-bold mb-4">Stay in Style</h2>
           <p className="text-lg mb-8 opacity-90">
-            Subscribe to our newsletter and get exclusive offers, style tips, and early access to new collections.
+            Subscribe to our newsletter and get exclusive offers, style tips, and early access to new collections. Vibe with V Shirts!
           </p>
           <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
             <input

@@ -28,7 +28,7 @@ const Home = () => {
               Shop by Category
             </h2>
             <p className="text-lg text-neutral-dark/60 max-w-2xl mx-auto">
-              Discover our curated collections for men and women
+              Variety that fits your vibe.
             </p>
           </motion.div>
 
@@ -66,7 +66,7 @@ const Home = () => {
               Trending Now
             </h2>
             <p className="text-lg text-neutral-dark/60 max-w-2xl mx-auto">
-              Explore our most popular styles this season
+              V Shirts — wear the value, feel the vibe, live the version of you.
             </p>
           </motion.div>
 

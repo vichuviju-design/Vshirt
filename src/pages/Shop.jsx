@@ -81,7 +81,10 @@ const Shop = () => {
             Shop
           </h1>
           <p className="text-lg text-neutral-dark/60">
-            Discover our complete collection
+            Variety that fits your vibe.
+          </p>
+          <p className="text-base text-neutral-dark/70 mt-2">
+            V Shirts — wear the value, feel the vibe, live the version of you.
           </p>
         </motion.div>
 
